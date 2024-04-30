@@ -11,7 +11,7 @@
   <input type="text" id="fname" name="fname"><br><br>
   <label for="lname">Last name:</label>
   <input type="text" id="lname" name="lname"><br><br>
-  //What is the difference btn get and post method
+  <!--What is the difference btn get and post method -->
   <input type="submit" value="Submit using GET">
   <input type="submit" formmethod="post" value="Submit using POST">
 </form>
