@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>`
+    <div class="container">
+        <h2>Registration form</h2>
+        <p>Please all fields mark as <i style="color:red">*</i> are mandatory</p>
+        <form method="POST" action="submit.html">
+        <div class="form-group">
+        <label>First Name:</label>
+        <input type="text" name="" class="input" required>
+        </div>
+
+
+        <div class="form-group">
+        <label>last Name:</label>
+        <input type="text" name="" class="input">
+        </div>
+
+         <div class="form-group">
+        <label>Phone:</label>
+        <input type="text" name="" maxlength="10" minlength="10" class="input" title="Please phone number must be 10 characters" pattern="[0-9]+" value="0788805431" readonly>
+        </div>
+
+        <div class="form-group">
+        <label>Age:</label>
+        <input type="number" name="" class="input" min="18" max="35" title="Please you must add 18 age or not above 35" required>
+        </div>
+
+
+
+        <div class="form-group">
+            <label>Gender</label>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Other"> Other
+        </div>
+
+        <div class="form-group">
+        <label>email:</label>
+        <input type="email" name="" class="input">
+        </div>
+
+        <div class="form-group">
+        <label>Password:</label>
+        <input type="password" name="" class="input">
+        </div>
+
+        <div class="form-group">
+        <label>Suggetion:</label>
+        <textarea cols="3" rows="2" class="input"></textarea>
+        </div>
+
+         <div class="form-group">
+            <input type="checkbox" name="" required>Accept the information provided above is true and accept your terms and privacy policy
+        </div>
+
+       
+
+        <div class="form-group">
+        <button class="btn" type="submit">Regist</button>
+        </div>
+
+</form>
+    </div>
+    
+</body>
+</html>
